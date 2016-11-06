@@ -31,8 +31,8 @@ var cityArray = [['Rome', 'sightseeing', 'summer', '$$$', 'solo, couple, family,
 
 function createCities() {
   for (var i = 0; i < cityArray.length; i++) {
-    for (var j = 0; j < 5; j++) {
-      var prod = new City(cityArray[i][j]);
-  };
+    var city = new City(cityArray[i][0], cityArray[i][1], cityArray[i][2], cityArray[i][3], cityArray[i][4]);
+    console.log(city);
+  }
 }
 createCities();
