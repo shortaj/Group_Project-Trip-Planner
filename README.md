@@ -34,8 +34,9 @@ Zermatt http://edenluxuryhomes.com/wp-content/uploads/2014/04/zermatt-village-to
 Majorca http://newmedia.thomson.co.uk/live/vol/0/d6a7cf1876d502338e9cd3254e9b4d5f68f742b4/1080x608/web/EUROPEMEDITERRANEANSPAINCON_ESPMAJORCAMAGALUF.jpg
 Prague http://www.prague.eu/file/edee/2014/09/cd-pano-579-kolebka-312-archiv_0187_panorama_neg41_31.jpg
 Marmaris http://newmedia.thomson.co.uk/live/vol/0/c907f6a6900ce4812906dda2607cdba008c364ba/1080x608/web/EUROPEMEDITERRANEANTURKEYCON_TURTURKEY-DALAMANMARMARISRES_000455.jpg
-
-
+Algarve http://www.easyjet.com/en/holidays/shared/images/guides/portugal/algarve.jpg
+Reykjavik http://www.icelandnaturally.com/sites/icelandnaturally.is/files/styles/article_730x490/public/thumbnails/image/visit_reykjavik.jpg
+Cavtat http://www.villa-borna-cavtat.com/uploads/2/4/9/9/24999391/7275720_orig.jpg
 
 LasVegas http://www.lvcva.com/
 Seattle https://www.tripadvisor.com/Tourism-g60878-Seattle_Washington-Vacations.html
@@ -51,3 +52,18 @@ SanFrancisco http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/fil
 Honolulu https://www.ncl.com/sites/default/files/HNL-gallery-900x400-03_0.jpg
 Tanzania http://www.sedadventures.com/images/uploads/victoria-falls.jpg
 GizaEgypt https://s-media-cache-ak0.pinimg.com/originals/1c/45/ff/1c45ff344773fb085f5b555d9a72e949.jpg
+
+Bali http://static1.1.sqspcdn.com/static/f/555537/26394689/1436973437687/bali-island.jpg?token=AmlH15o7yNAR7P8hX%2F9wb0i1GQY%3D
+Singapore http://static.asiawebdirect.com/m/phuket/portals/www-singapore-com/homepage/attractions/all-attractions/pagePropertiesImage/singapore1.jpg
+Rishikesh http://www.yogattcglobal.com/userfiles/image/rishikesh.jpg
+Phuket https://thailandpackagetravel.com/wp-content/uploads/2016/05/phuket.jpg
+Hoi An http://www.vietnamtourismhanoi.com/wp-content/uploads/2014/06/hoi-an-header.jpg
+Luang Prabang http://static.asiawebdirect.com/m/bangkok/portals/laos/homepage/luang-prabang/attractions/pagePropertiesImage/wat-xieng-thong-1.jpg
+Siem Reap https://lonelyplanetimages.imgix.net/a/g/hi/t/ece4a0143363eb7f739b25032638804f-siem-reap.jpg?sharp=10&vib=20&w=1200
+Bagan https://pix6.agoda.net/city/16597/16597-7x3.jpg
+Cairns https://madtravelshop.com/sites/madtravelshop.com/files/category_pictures/cairns.jpg
+Queenstown https://www.queenstownnz.co.nz/content/images/4752/1920x1080normal/DQ19241-header-image-internal.jpg
+Chengdu http://blog.hutong-school.com/wp-content/uploads/2014/05/Chengdu.jpg
+Yongpyong https://67.media.tumblr.com/ab20fe2398ba0f90a59dd21e3fd6e69e/tumblr_mxc9nflzYX1qkyzm3o1_1280.jpg
+Kyoto http://www.fourseasons.com/content/dam/fourseasons/images/web/KYO/KYO_041_1280x486.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg
+Kuala Lumpur http://photos.mandarinoriental.com/is/image/MandarinOriental/kuala-lumpur-2013-exterior-dusk-homepage
