@@ -8,3 +8,12 @@
 .divAll {
   margin-bottom: 200px;
 }
+
+#hamburger {
+
+}
+
+#hamburgerList {
+  list-style-type: none;
+  display: none;
+}
