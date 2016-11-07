@@ -2,8 +2,9 @@
 
 var cityObjects = [];
 
-var City = function(name, activity, season, money, people) {
-  this.name = name,
+var City = function(city, country, activity, season, money, people) {
+  this.city = city,
+  this.country = country,
   this.activity = activity,
   this.season = season,
   this.money = money,
@@ -12,21 +13,27 @@ var City = function(name, activity, season, money, people) {
   cityObjects.push(this);
 };
 
-var cityArray = [['Rome', 'sightseeing', 'summer', '$$$', 'solo, couple, family, pet'],
-  ['Paris', 'sightseeing', 'spring, fall', '$$$', 'solo, couple, family, pet'],
-  ['London', 'sightseeing', 'spring', '$$$', 'solo, couple, family, pet'],
-  ['Amsterdam', 'sightseeing', 'spring, fall', '$$$', 'solo, couple'],
-  ['Berlin', 'sightseeing', 'summer', '$$', 'solo, couple, family, pet'],
-  ['Budapest', 'sightseeing', 'winter', '$$', 'couple, family'],
-  ['Tallin', 'sightseeing', 'spring, summer', '$', 'solo, couple, family, pet'],
+var cityArray = [['Rome', 'Italy', 'sightseeing', 'summer', '$$$', 'solo, couple, family, pet'],
+  ['Paris', 'France', 'sightseeing', 'spring, fall', '$$$', 'solo, couple, family, pet'],
+  ['London', 'United Kingdom', 'sightseeing', 'spring', '$$$', 'solo, couple, family, pet'],
+  ['Amsterdam', 'Netherlands', 'sightseeing', 'spring, fall', '$$$', 'solo, couple'],
+  ['Berlin', 'Germany', 'sightseeing', 'summer', '$$', 'solo, couple, family, pet'],
+  ['Budapest', 'Hungary','sightseeing', 'winter', '$$', 'couple, family'],
+  ['Tallin', 'Estonia','sightseeing', 'spring, summer', '$', 'solo, couple, family, pet'],
   ['Kungsleden, Sweden', 'hiking, camping', 'fall, summer', '$', 'solo, couple, family, pet' ],
   ['Zermatt, Switzerland', 'skiing', 'winter', '$$$', 'solo, couple, family, pet'],
   ['Majorca, Spain', 'beach', 'spring, summer', '$$', 'solo, couple, family, pet'],
-  ['Prague, Czech Republic', 'sightseeing', 'spring, fall', '$$', 'solo'],
-  ['Marmaris, Turkey', 'beach', 'summer', '$', 'solo, couple, family'],
-  ['Algarve, Portugal', 'beach', 'summer', '$', 'solo, couple, family'],
-  ['Reykjavík, Iceland', 'sightseeing, hiking', 'winter', '$$', 'solo, couple'],
-  ['Cavtat, Croatia', 'beach', 'summer', '$', 'solo, couple, family']
+  ['Prague', 'Czech Republic', 'sightseeing', 'spring, fall', '$$', 'solo'],
+  ['Marmaris', 'Turkey', 'beach', 'summer', '$', 'solo, couple, family'],
+  ['Algarve', 'Portugal', 'beach', 'summer', '$', 'solo, couple, family'],
+  ['Reykjavík', 'Iceland', 'sightseeing, hiking', 'winter', '$$', 'solo, couple'],
+  ['Cavtat', 'Croatia', 'beach', 'summer', '$', 'solo, couple, family'],
+
+  ['Bali', 'Indonesia', 'Beach', 'Winter, Spring, Summer, Fall', '$$', 'solo, couple, family'],
+  ['Singapore', 'Singapore', 'sightseeing', 'Winter, Spring, Summer, Fall', '$$', 'couple, family'],
+  ['Rishikesh', 'India', 'Siteseeing', 'Winter, Spring, Fall', '$', 'solo, couple'],
+  ['Phuket', 'Thailand', 'Beach, Siteseeing', 'Winter, Spring, Fall', '$', 'solo, couple'],
+  ['Hoi Ann', 'Vietnam', 'Beach, Siteseeing', 'Winter, Spring, Fall', '$', 'solo, couple'],
 ];
 
 function createCities() {
