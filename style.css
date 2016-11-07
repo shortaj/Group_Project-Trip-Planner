@@ -1,0 +1,10 @@
+.iconAll {
+  list-style-type: none;
+  display: inline;
+  margin: 100px;
+  cursor: pointer;
+}
+
+.divAll {
+  margin-bottom: 200px;
+}
