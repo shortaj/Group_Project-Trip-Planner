@@ -60,6 +60,23 @@ var cityArray = [['Rome', 'Italy', 'sightseeing', 'summer', '$$$', 'solo, couple
   ['Kuala Lumpur', 'Malaysia', 'siteseeing', 'winter, spring, summer, fall', '$$', 'couple, family']
 ];
 
+// var dummyCityArray = [
+//   {
+//     name: 'Bale',
+//     country: ,
+//     type: 'beach',
+//     seasons: ['spring', 'summer'],
+//     price: 2,
+//     cool: false,
+//   },
+// ];
+// cityObjects[i].activity.includescityObjects[i].activity.includes
+// var stuff = new Destination(destinationInfo) {
+//   this.name = destinationInfo.name;
+//   this.counter = destinationInfo.country;
+//   this.cool = destinationInfo.cool;
+// }
+
 function createCities() {
   for (var i = 0; i < cityArray.length; i++) {
     var city = new City(cityArray[i][0], cityArray[i][1], cityArray[i][2], cityArray[i][3], cityArray[i][4], cityArray[i][5], cityArray[i][6]);
