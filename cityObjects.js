@@ -29,16 +29,41 @@ var cityArray = [['Rome', 'Italy', 'sightseeing', 'summer', '$$$', 'solo, couple
   ['Reykjavík', 'Iceland', 'sightseeing, hiking', 'winter', '$$', 'solo, couple'],
   ['Cavtat', 'Croatia', 'beach', 'summer', '$', 'solo, couple, family'],
 
+  ['Las Vegas','Nevada, USA', 'sightseeing', 'winter, spring, summer, fall', '$$$', 'solo, couple, family'],
+  ['Seattle', 'Washington, USA', 'sightseeing', 'summer', '$$', 'couple'],
+  ['San Diego', 'California, USA', 'beach', 'fall', '$', 'family'],
+  ['New York', 'New York, USA', 'sightseeing', 'winter', '$$', 'single'],
+  ['Vancouver', 'BC, Canada', 'sightseeing', 'spring', '$$', 'family'],
+  ['Cancun', 'Mexico', 'beach', 'summer', '$$', 'couple'],
+  ['Burlington', 'Vermont, USA', 'hiking', 'fall', '$$', 'couple'],
+  ['Rio Di Janeiro', 'Brazil', 'beach', 'summer', '$', 'single'],
+  ['Chichen Itza', 'Mexico', 'sightseeing', 'spring', '$', 'family'],
+  ['Lima', 'Peru', 'sightseeing', 'summer', '$', 'couple'],
+  ['San Francisco', 'California, USA', 'sightseeing', 'fall', '$$', 'couple'],
+  ['Honolulu', 'Hawaii, USA', 'beach', 'winter', '$$$', 'couple'],
+  ['Dodoma', 'Tanzania', 'sightseeing', 'winter', '$', 'family'],
+  ['Victoria Falls', 'Zambia', 'sightseeing', 'fall', '$$', 'family'],
+  ['Giza', 'Egypt', 'sightseeing', 'fall', '$$', 'single'],
+
   ['Bali', 'Indonesia', 'Beach', 'Winter, Spring, Summer, Fall', '$$', 'solo, couple, family'],
   ['Singapore', 'Singapore', 'sightseeing', 'Winter, Spring, Summer, Fall', '$$', 'couple, family'],
   ['Rishikesh', 'India', 'Siteseeing', 'Winter, Spring, Fall', '$', 'solo, couple'],
   ['Phuket', 'Thailand', 'Beach, Siteseeing', 'Winter, Spring, Fall', '$', 'solo, couple'],
   ['Hoi Ann', 'Vietnam', 'Beach, Siteseeing', 'Winter, Spring, Fall', '$', 'solo, couple'],
+  ['Luang Prabang', 'Laos', 'Siteseeing', 'Winter, Spring, Fall', '$$', '$$', 'solo, couple, family'],
+  ['Siem Reap', 'Cambodia', 'Siteseeing', 'Winter, Spring, Fall', '$', 'solo, couple'],
+  ['Bagan', 'Myanmar', 'Siteseeing', 'Winter, Spring, Fall', '$', 'solo, couple'],
+  ['Cairns', 'Australia', 'Beach, Sports, Siteseeing', 'Winter, Spring, Summer, Fall', '$$$', 'solo, couple, family'],
+  ['Queenstown', 'New Zealand', 'Beach, Sports, Siteseeing', 'Winter, Spring, Summer, Fall', '$$$', 'solo, couple, family'],
+  ['Chengdu', 'China', 'Siteseeing', 'Spring, Summer, Fall', '$$', 'solo, couple, family'],
+  ['Yongpyong', 'South Korea', 'Siteseeing, Sports', 'Spring, Summer, Fall', '$$', 'solo, couple, family'],
+  ['Kyoto', 'Japan', 'Siteseeing', 'Spring, Summer, Fall', '$$', 'solo, couple, family'],
+  ['Kuala Lumpur', 'Malaysia', 'Siteseeing', 'Winter, Spring, Summer, Fall', '$$', 'couple, family']
 ];
 
 function createCities() {
   for (var i = 0; i < cityArray.length; i++) {
-    var city = new City(cityArray[i][0], cityArray[i][1], cityArray[i][2], cityArray[i][3], cityArray[i][4]);
+    var city = new City(cityArray[i][0], cityArray[i][1], cityArray[i][2], cityArray[i][3], cityArray[i][4], cityArray[i][5]);
     console.log(city);
   }
 }
