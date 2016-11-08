@@ -111,3 +111,9 @@ footer {
   bottom: 0;
   margin: auto;
 }
+.resultHolder {
+  width: 600px;
+  height: 200px;
+  border: 1px solid white;
+  margin: 5px;
+}
