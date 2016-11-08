@@ -94,7 +94,7 @@ var icon4D = document.getElementById('icon4D');
 icon4D.addEventListener('click', pet);
 
 function solo() {
-  userAnswerArray[3] = 'solo'
+  userAnswerArray[3] = 'solo';
 }
 function couple() {
   userAnswerArray[3] = 'couple';
@@ -126,6 +126,33 @@ function randomPick() {
   var imageSpotLeft = sortedCities[randomNumber()];
   var imageSpotCenter = sortedCities[randomNumber()];
   var imageSpotRight = sortedCities[randomNumber()];
+}
+
+var showLeft = getElementById('holder');
+showLeft.innerContent = imageSpotLeft(filename);
+showLeft.addEventListener('click' , cardPage);
+var showCenter = getElementById('holder');
+showCenter.innerContent = imageSpotCenter;
+showCenter.addEventListener('click' , cardPage);
+var showRight = getElementById('holder');
+showRight.innerContent = imageSpotRight;
+showRight.addEventListener('click' , cardPage);
+
+function cardPage() {
+  var showWeather = getElementById('div1');
+  display.cityObjects[i].weather;
+  var showFlights = getElementById('div1');
+  display.cityObjects[i].flights;
+  var showCurrency = getElementById('div1');
+  display.cityObjects[i].currency;
+  var showMaps = getElementById('div1');
+  display.cityObjects[i].maps;
+  var showCalendar = getElementById('div1');
+  display.cityObjects[i].calendar;
+  var showLanguages = getElementById('div1');
+  display.cityObjects[i].languages;
+  var showEmbassy = getElementById('div1');
+  display.cityObjects[i].embassy;
 }
 
 //
