@@ -1,25 +1,43 @@
 .bodyStyle {
   background-color: black;
-  
+
 }
-
-
 .iconAll {
   list-style-type: none;
   display: inline;
-  margin: 100px;
+  /*margin: 100px;*/
   cursor: pointer;
 }
-
+img {
+  height: 160px;
+  width: 160px;
+  margin: 50px;
+}
+img:hover {
+  box-shadow: 0px 0px 40px #fff;
+}
+img:active {
+  box-shadow: 0px 0px 40px #fff;
+}
+img:visited {
+  box-shadow: 0px 0px 40px #fff;
+}
+/*can we change id/ class on click to make glow stay?*/
+i {
+  color: white;
+}
 .divAll {
-  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh
 }
-
 #hamburger {
-
+  display: block;
 }
-
 #hamburgerList {
   list-style-type: none;
-  display: none
+  display: none;
+  position: absolute;
 }
