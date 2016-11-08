@@ -44,38 +44,21 @@ var cityArray = [['Rome', 'Italy', 'sightseeing', 'summer', '$$$', 'solo, couple
   ['Victoria Falls', 'Tanzania', 'sightseeing', 'winter', '$', 'family', 'img/VictoriaFallsTanzania.jpg'],
   ['Giza', 'Egypt', 'sightseeing', 'fall', '$$', 'single', 'img/GizaEgypt.jpg'],
 
-  ['Bali', 'Indonesia', 'beach', 'winter, spring, summer, fall', '$$', 'solo, couple, family'],
-  ['Singapore', 'Singapore', 'sightseeing', 'winter, spring, summer, fall', '$$', 'couple, family'],
-  ['Rishikesh', 'India', 'siteseeing', 'winter, spring, fall', '$', 'solo, couple'],
-  ['Phuket', 'Thailand', 'beach, siteseeing', 'winter, spring, fall', '$', 'solo, couple'],
-  ['Hoi Ann', 'Vietnam', 'beach, siteseeing', 'winter, spring, fall', '$', 'solo, couple'],
-  ['Luang Prabang', 'Laos', 'siteseeing', 'winter, spring, fall', '$$', '$$', 'solo, couple, family'],
-  ['Siem Reap', 'Cambodia', 'siteseeing', 'winter, spring, fall', '$', 'solo, couple'],
-  ['Bagan', 'Myanmar', 'siteseeing', 'winter, spring, fall', '$', 'solo, couple'],
-  ['Cairns', 'Australia', 'beach, sports, siteseeing', 'winter, spring, summer, fall', '$$$', 'solo, couple, family'],
-  ['Queenstown', 'New Zealand', 'beach, sports, siteseeing', 'winter, spring, summer, fall', '$$$', 'solo, couple, family'],
-  ['Chengdu', 'China', 'siteseeing', 'spring, summer, fall', '$$', 'solo, couple, family'],
-  ['Yongpyong', 'South Korea', 'siteseeing, sports', 'spring, summer, fall', '$$', 'solo, couple, family'],
-  ['Kyoto', 'Japan', 'siteseeing', 'spring, summer, fall', '$$', 'solo, couple, family'],
-  ['Kuala Lumpur', 'Malaysia', 'siteseeing', 'winter, spring, summer, fall', '$$', 'couple, family']
+  ['Bali', 'Indonesia', 'beach', 'winter, spring, summer, fall', '$$', 'solo, couple, family', 'img/Bali.jpg'],
+  ['Singapore', 'Singapore', 'sightseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Singapore.jpg'],
+  ['Rishikesh', 'India', 'siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Rishikesh.jpg'],
+  ['Phuket', 'Thailand', 'beach, siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Phuket.jpg'],
+  ['Hoi An', 'Vietnam', 'beach, siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Hoi-an.jpg'],
+  ['Luang Prabang', 'Laos', 'siteseeing', 'winter, spring, fall', '$$', '$$', 'solo, couple, family', 'img/Luang-prabang.jpg'],
+  ['Siem Reap', 'Cambodia', 'siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Siem-reap.jpg'],
+  ['Bagan', 'Myanmar', 'siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Bagan.jpg'],
+  ['Cairns', 'Australia', 'beach, sports, siteseeing', 'winter, spring, summer, fall', '$$$', 'solo, couple, family', 'img/Cairns.jpg'],
+  ['Queenstown', 'New Zealand', 'beach, sports, siteseeing', 'winter, spring, summer, fall', '$$$', 'solo, couple, family', 'img/Queenstown.jpg'],
+  ['Chengdu', 'China', 'siteseeing', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Chengdu.jpg'],
+  ['Yongpyong', 'South Korea', 'siteseeing, sports', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Yongpyong.jpg'],
+  ['Kyoto', 'Japan', 'siteseeing', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Kyoto.jpg'],
+  ['Kuala Lumpur', 'Malaysia', 'siteseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Kuala-lumpur.jpg']
 ];
-
-// var dummyCityArray = [
-//   {
-//     name: 'Bale',
-//     country: ,
-//     type: 'beach',
-//     seasons: ['spring', 'summer'],
-//     price: 2,
-//     cool: false,
-//   },
-// ];
-// cityObjects[i].activity.includescityObjects[i].activity.includes
-// var stuff = new Destination(destinationInfo) {
-//   this.name = destinationInfo.name;
-//   this.counter = destinationInfo.country;
-//   this.cool = destinationInfo.cool;
-// }
 
 function createCities() {
   for (var i = 0; i < cityArray.length; i++) {
