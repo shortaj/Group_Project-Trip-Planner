@@ -35,9 +35,9 @@ i {
 }
 #hamburger {
   display: block;
-
 }
 #hamburgerList {
   list-style-type: none;
-  display: none
+  display: none;
+  position: absolute;
 }
