@@ -8,17 +8,17 @@ var City = function(city, country, activity, season, money, people, path, weathe
   this.money = money;
   this.people = people;
   this.path = path;
-  this.weather = weather;
-  this.flights = flights;
-  this.currency = currency;
-  this.maps = maps;
-  this.calendar = calendar;
-  this.languages = languages;
-  this.embassy = embassy;
+  // this.weather = weather;
+  // this.flights = flights;
+  // this.currency = currency;
+  // this.maps = maps;
+  // this.calendar = calendar;
+  // this.languages = languages;
+  // this.embassy = embassy;
 };
 
 var cityObjects = [
-  new City('Rome', 'Italy', 'sightseeing', 'summer', '$$$', 'solo, couple, family, pet', 'img/Rome.jpg' , romeWeather, romeFlights, romeCurrency, romeMaps, romeCalendar, romeLanguages, romeEmbassy),
+  new City('Rome', 'Italy', 'sightseeing', 'summer', '$$$', 'solo, couple, family, pet', 'img/Rome.jpg'),
   new City('Paris', 'France', 'sightseeing', 'spring, fall', '$$$', 'solo, couple, family, pet', 'img/Paris.jpg'),
   new City('London', 'United Kingdom', 'sightseeing', 'spring', '$$$', 'solo, couple, family, pet', 'img/London.jpg'),
   new City('Amsterdam', 'Netherlands', 'sightseeing', 'spring, fall', '$$$', 'solo, couple', 'img/Amsterdam.jpg'),
@@ -65,10 +65,11 @@ var cityObjects = [
   new City('Kuala Lumpur', 'Malaysia', 'siteseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Kuala-lumpur.jpg')
 ];
 
-var romeWeather = 'https://www.wunderground.com/q/zmw:00000.1.16242';
-var romeFlights = '';
-var romeCurrency = '';
-var romeMaps = '';
-var romeCalendar = '';
-var romeLanguages = '';
-var romeEmbassy = '';
+// , romeWeather, romeFlights, romeCurrency, romeMaps, romeCalendar, romeLanguages, romeEmbassy
+// var romeWeather = 'https://www.wunderground.com/q/zmw:00000.1.16242';
+// var romeFlights = '';
+// var romeCurrency = '';
+// var romeMaps = '';
+// var romeCalendar = '';
+// var romeLanguages = '';
+// var romeEmbassy = '';

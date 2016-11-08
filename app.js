@@ -122,36 +122,39 @@ function sortCities() {
 function randomNumber() {
   return Math.floor(Math.random(sortedCities.length));
 }
+var results = document.getElementById('resultsButton');
+results.addEventListener('click', randomPick);
 function randomPick() {
   var imageSpotLeft = sortedCities[randomNumber()];
+  localStorage.setItem('resultOne', JSON.stringify(imageSpotLeft));
   var imageSpotCenter = sortedCities[randomNumber()];
   var imageSpotRight = sortedCities[randomNumber()];
 }
 
-var showLeft = getElementById('holder');
-showLeft.innerContent = imageSpotLeft(filename);
+var showLeft = document.getElementById('imageSpotLeft');
+showLeft.innerContent = imageSpotLeft(path);
 showLeft.addEventListener('click' , cardPage);
-var showCenter = getElementById('holder');
-showCenter.innerContent = imageSpotCenter;
+var showCenter = document.getElementById('imageSpotCenter');
+showCenter.innerContent = imageSpotCenter(path);
 showCenter.addEventListener('click' , cardPage);
-var showRight = getElementById('holder');
-showRight.innerContent = imageSpotRight;
+var showRight = document.getElementById('imageSpotRight');
+showRight.innerContent = imageSpotRight(path);
 showRight.addEventListener('click' , cardPage);
 
 function cardPage() {
-  var showWeather = getElementById('div1');
+  var showWeather = document.getElementById('div1');
   display.cityObjects[i].weather;
-  var showFlights = getElementById('div1');
+  var showFlights = document.getElementById('div1');
   display.cityObjects[i].flights;
-  var showCurrency = getElementById('div1');
+  var showCurrency = document.getElementById('div1');
   display.cityObjects[i].currency;
-  var showMaps = getElementById('div1');
+  var showMaps = document.getElementById('div1');
   display.cityObjects[i].maps;
-  var showCalendar = getElementById('div1');
+  var showCalendar = document.getElementById('card4');
   display.cityObjects[i].calendar;
-  var showLanguages = getElementById('div1');
+  var showLanguages = document.getElementById('div1');
   display.cityObjects[i].languages;
-  var showEmbassy = getElementById('div1');
+  var showEmbassy = document.getElementById('div1');
   display.cityObjects[i].embassy;
 }
 
