@@ -7,6 +7,7 @@
     <script src="https://use.fontawesome.com/e93af6e06e.js"></script>
     <title>Travel Card</title>
   </head>
+
   <body class="bodyStyle">
     <header>
       <nav>
@@ -18,35 +19,65 @@
       </nav>
       </ul>
     </header>
+
     <main class="columns-container">
       <section id="column1">
-        <article class="card-half" id="card1">
+        <a href="#">
+            <div class="card-half background" id="card1">
+              <!-- <img id="city-view" src="img/Rome.jpg" alt="city"/> -->
+              <p id="city-name">Rome</p>
+          </div>
 
-        </article>
-        <article class="card-half" id="card2">
-          <img src="cards/cardMap.png" alt="map" id="map"/>
-        </article>
+        </a>
+
+        <a href="#">
+          <article class="card-half background" id="card2">
+            <img src="cards/cardMap.png" alt="map" id="map"/>
+            <p class="card-text">
+              Map and useful local information.
+            </p>
+          </article>
+        </a>
       </section>
+
       <section id="column2">
-        <article class="card-long" id="card3">
+        <a href="#">
+          <article class="card-long background" id="card3">
 
-        </article>
-        <article class="card-short" id="card4">
-          <img src="cards/cardWeather.png" alt="weather" id="weather"/>
+          </article>
+        </a>
 
-        </article>
+        <a href="#">
+          <article class="card-short background" id="card4">
+            <img src="cards/cardWeather.png" alt="weather" id="weather"/>
+
+          </article>
+        </a>
       </section>
+
       <section id="column3">
-        <article class="card-half" id="card5">
-          <img src="cards/cardCalendar.png" alt="calendar" id="calendar"/>
+        <a href="#">
+          <article class="card-half background" id="card5">
+            <img src="cards/cardCalendar.png" alt="calendar" id="calendar"/>
 
-        </article>
-        <article class="card-half" id="card6">
+          </article>
+        </a>
 
-        </article>
+        <a href="#">
+          <article class="card-half background" id="card6">
+            <div class="cards4">
+              <img src="cards/cardEmbassy.png" alt="embassy" id="embassy"/>
+              <img src="cards/cardFlight.png" alt="flight" id="flight"/>
+              <img src="cards/cardLanguage.jpeg" alt="language" id="language"/>
+              <img src="cards/cardCurrency.png" alt="currency" id="currency"/>
+            </div>
+          </article>
+        </a>
       </section>
     </main>
+
     <script src="app.js" charset="utf-8"></script>
-    <footer>Placeholder for footer</footer>
+    <footer></footer>
   </body>
+
 </html>

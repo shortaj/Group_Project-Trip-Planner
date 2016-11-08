@@ -30,7 +30,7 @@ i {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100vh
+  height: 100vh;
 }
 #hamburger {
   display: block;
@@ -54,14 +54,13 @@ i {
 .columns-container {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: auto;;
   padding: 10px;
   overflow: hidden;
 }
 #column1 {
   display: flex;
   flex-direction: column;
-  background-color: rgba(229, 227, 227, 0.2);
   height: auto;
   width: 30%;
   margin-left: 20px;
@@ -71,7 +70,6 @@ i {
 #column2 {
   display: flex;
   flex-direction: column;
-  background-color: rgba(229, 227, 227, 0.2);
   height: auto;
   width: 30%;
   margin-left: 20px;
@@ -81,7 +79,6 @@ i {
 #column3 {
   display: flex;
   flex-direction: column;
-  background-color: rgba(229, 227, 227, 0.2);
   height: auto;
   width: 30%;
   margin-left: 20px;
@@ -93,14 +90,12 @@ i {
   height: 48vh;
   margin-top: 5px;
   margin-bottom: 5px;
-  /*background-color: red;*/
 }
 .card-long {
   width: auto;
   height: 70vh;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: red;
 }
 .card-short {
   width: auto;
@@ -108,25 +103,31 @@ i {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-#map {
+.background {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+#map, #weather, #calendar{
   display: block;
   margin: auto;
-  width: 300px;
+  width: 250px;
 }
-#weather {
-  display: block;
-  margin: auto;
-  width: 300px;
-}
-footer {
+#embassy, #flight, #language, #currency {
   display: inline-block;
-  position: absolute;
-  bottom: 0;
-  margin: auto;
+  float: left;
+  width: 162px;
+  margin: 3px;
 }
-.resultHolder {
-  width: 600px;
-  height: 200px;
-  border: 1px solid white;
-  margin: 5px;
+.card-text {
+  padding-left: 60px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+#card1 {
+  background-image: url('img/Rome.jpg');
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
