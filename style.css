@@ -41,3 +41,9 @@ i {
   display: none;
   position: absolute;
 }
+.resultHolder {
+  width: 600px;
+  height: 200px;
+  border: 1px solid white;
+  margin: 5px;
+}
