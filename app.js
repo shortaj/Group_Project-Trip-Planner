@@ -105,6 +105,29 @@ function family() {
 function pet() {
   userAnswerArray[3] = 'pet';
 }
+
+function sortCities() {
+  for (var i = 0; i < cityObjects.length; i++) {
+    if (cityObjects[i].activity === userAnswerArray[0])
+      if (cityObjects[i].season === userAnswerArray[1]) {
+        if(cityObjects[i].money === userAnswerArray[2]) {
+          if(cityObjects[i].people === userAnswerArray[3]){
+            sortedCities.push(cityObjects[i]);
+          }
+        }
+      }
+  }
+}
+
+function randomNumber() {
+  return Math.floor(Math.random(sortedCities.length));
+}
+function randomPick() {
+  var imageSpotLeft = sortedCities[randomNumber()];
+  var imageSpotCenter = sortedCities[randomNumber()];
+  var imageSpotRight = sortedCities[randomNumber()];
+}
+
 //
 // function secondQuestion() {
 //   for (var i = 0; i < sortedCities.length; i++){
