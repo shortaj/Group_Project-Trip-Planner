@@ -40,7 +40,7 @@ var cityObjects = [
   new City('New York', 'New York, USA', 'sightseeing', 'winter', '$$', 'single', 'img/NewYorkCity.jpg'),
   new City('Vancouver', 'BC, Canada', 'sightseeing', 'spring', '$$', 'family', 'img/Vancouver.jpg'),
   new City('Cancun', 'Mexico', 'beach', 'summer', '$$', 'couple', 'img/Cancun.jpg'),
-  new City('Burlington', 'Vermont, USA', 'sports', 'fall', '$$', 'couple', 'img/Vermont.jpg'),
+  new City('Burlington', 'Vermont, USA', 'sports', 'fall', '$$$', 'pet' , 'img/Vermont.jpg'),
   new City('Rio De Janeiro', 'Brazil', 'beach', 'summer', '$', 'single', 'img/RioDeJaneiro.jpg'),
   new City('Chichen Itza', 'Mexico', 'sightseeing', 'spring', '$', 'family', 'img/ChichenItza.jpg'),
   new City('Lima', 'Peru', 'sightseeing', 'summer', '$', 'couple', 'img/LimaPeru.jpg'),
