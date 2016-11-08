@@ -94,7 +94,7 @@ var icon4D = document.getElementById('icon4D');
 icon4D.addEventListener('click', pet);
 
 function solo() {
-  userAnswerArray[3] = 'solo'
+  userAnswerArray[3] = 'solo';
 }
 function couple() {
   userAnswerArray[3] = 'couple';
