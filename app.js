@@ -118,19 +118,26 @@ function sortCities() {
 }
 
 function randomNumber() {
-  return Math.floor(Math.random() * sortedCities.length);
+  var one = Math.floor(Math.random() * sortedCities.length);
+  var two = Math.floor(Math.random() * sortedCities.length);
+  var three = Math.floor(Math.random() * sortedCities.length);
+  if ((one === two) || (one === three) || (two === three)) {
+    randomNumber();
+  } else {
+    return [one, two, three];
+  }
 }
 var results = document.getElementById('resultsButton');
 results.addEventListener('click', randomPick);
 function randomPick() {
   sortCities();
-  var leftIndex = randomNumber();
-  console.log(leftIndex);
+  randomNumber();
   var imageSpotLeft   = sortedCities[leftIndex];
-  console.log(imageSpotLeft);
   var imageSpotCenter = sortedCities[randomNumber()];
   var imageSpotRight  = sortedCities[randomNumber()];
   localStorage.setItem('resultOne', JSON.stringify(imageSpotLeft));
+  localStorage.setItem('resultTwo', JSON.stringify(imageSpotCenter));
+  localStorage.setItem('resultThree', JSON.stringify(imageSpotRight));
 }
 
 //
