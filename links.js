@@ -1,9 +1,9 @@
 
-var allFlights = '';
-var allLanguages = '';
+var allFlights = 'https://www.hipmunk.com/flights';
+var allLanguages = 'http://www.infoplease.com/ipa/A0855611.html';
+var allCurrency = 'http://www.exchange-rates.org/';
 
 var romeWeather = 'https://www.wunderground.com/cgi-bin/findweather/getForecast?query=rome%2C+italy';
-var romeCurrency = '';
 var romeMaps = '';
 var romeCalendar = '';
 var romeEmbassy = '';
