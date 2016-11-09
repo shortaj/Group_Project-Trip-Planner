@@ -1,6 +1,6 @@
 'use strict';
 
-var City = function(city, country, activity, season, money, people, path) {
+var City = function(city, country, activity, season, money, people, path, weather) {
   this.city = city;
   this.country = country;
   this.activity = activity;
@@ -8,6 +8,13 @@ var City = function(city, country, activity, season, money, people, path) {
   this.money = money;
   this.people = people;
   this.path = path;
+  // this.weather = weather;
+  // this.flights = flights;
+  // this.currency = currency;
+  // this.maps = maps;
+  // this.calendar = calendar;
+  // this.languages = languages;
+  // this.embassy = embassy;
 };
 
 var cityObjects = [
@@ -33,7 +40,7 @@ var cityObjects = [
   new City('New York', 'New York, USA', 'sightseeing', 'winter', '$$', 'single', 'img/NewYorkCity.jpg'),
   new City('Vancouver', 'BC, Canada', 'sightseeing', 'spring', '$$', 'family', 'img/Vancouver.jpg'),
   new City('Cancun', 'Mexico', 'beach', 'summer', '$$', 'couple', 'img/Cancun.jpg'),
-  new City('Burlington', 'Vermont, USA', 'sports', 'fall', '$$', 'couple', 'img/Vermont.jpg'),
+  new City('Burlington', 'Vermont, USA', 'sports', 'fall', '$$$', 'pet' , 'img/Vermont.jpg'),
   new City('Rio De Janeiro', 'Brazil', 'beach', 'summer', '$', 'single', 'img/RioDeJaneiro.jpg'),
   new City('Chichen Itza', 'Mexico', 'sightseeing', 'spring', '$', 'family', 'img/ChichenItza.jpg'),
   new City('Lima', 'Peru', 'sightseeing', 'summer', '$', 'couple', 'img/LimaPeru.jpg'),
@@ -42,7 +49,7 @@ var cityObjects = [
   new City('Victoria Falls', 'Tanzania', 'sightseeing', 'winter', '$', 'family', 'img/VictoriaFallsTanzania.jpg'),
   new City('Giza', 'Egypt', 'sightseeing', 'fall', '$$', 'single', 'img/GizaEgypt.jpg'),
 
-  new City('Bali', 'Indonesia', 'beach', 'winter, spring, summer, fall', '$$', 'solo, couple, family', 'img/Bali.jpg'),
+  new City('Ubud', 'Bali, Indonesia', 'beach', 'winter, spring, summer, fall', '$$', 'solo, couple, family', 'img/Bali.jpg'),
   new City('Singapore', 'Singapore', 'sightseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Singapore.jpg'),
   new City('Rishikesh', 'India', 'siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Rishikesh.jpg'),
   new City('Phuket', 'Thailand', 'beach, siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Phuket.jpg'),

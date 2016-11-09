@@ -94,7 +94,7 @@ var icon4D = document.getElementById('icon4D');
 icon4D.addEventListener('click', pet);
 
 function solo() {
-  userAnswerArray[3] = 'solo'
+  userAnswerArray[3] = 'solo';
 }
 function couple() {
   userAnswerArray[3] = 'couple';
@@ -105,6 +105,62 @@ function family() {
 function pet() {
   userAnswerArray[3] = 'pet';
 }
+
+function sortCities() {
+  for (var i = 0; i < cityObjects.length; i++) {
+    if (cityObjects[i].activity.includes(userAnswerArray[0]) &&
+        cityObjects[i].season.includes(userAnswerArray[1]) &&
+        cityObjects[i].money.includes(userAnswerArray[2]) &&
+        cityObjects[i].people.includes(userAnswerArray[3])) {
+      sortedCities.push(cityObjects[i]);
+    }
+  }
+}
+
+function randomNumber() {
+  return Math.floor(Math.random() * sortedCities.length);
+}
+var results = document.getElementById('resultsButton');
+results.addEventListener('click', randomPick);
+function randomPick() {
+  sortCities();
+  var leftIndex = randomNumber();
+  console.log(leftIndex);
+  var imageSpotLeft   = sortedCities[leftIndex];
+  console.log(imageSpotLeft);
+  var imageSpotCenter = sortedCities[randomNumber()];
+  var imageSpotRight  = sortedCities[randomNumber()];
+  localStorage.setItem('resultOne', JSON.stringify(imageSpotLeft));
+}
+
+//
+// var showLeft = document.getElementById('imageSpotLeft');
+// showLeft.innerContent = imageSpotLeft(path);
+// showLeft.addEventListener('click' , cardPage);
+// var showCenter = document.getElementById('imageSpotCenter');
+// showCenter.innerContent = imageSpotCenter(path);
+// showCenter.addEventListener('click' , cardPage);
+// var showRight = document.getElementById('imageSpotRight');
+// showRight.innerContent = imageSpotRight(path);
+// showRight.addEventListener('click' , cardPage);
+//
+// function cardPage() {
+//   var showWeather = document.getElementById('div1');
+//   display.cityObjects[i].weather;
+//   var showFlights = document.getElementById('div1');
+//   display.cityObjects[i].flights;
+//   var showCurrency = document.getElementById('div1');
+//   display.cityObjects[i].currency;
+//   var showMaps = document.getElementById('div1');
+//   display.cityObjects[i].maps;
+//   var showCalendar = document.getElementById('card4');
+//   display.cityObjects[i].calendar;
+//   var showLanguages = document.getElementById('div1');
+//   display.cityObjects[i].languages;
+//   var showEmbassy = document.getElementById('div1');
+//   display.cityObjects[i].embassy;
+// }
+
 //
 // function secondQuestion() {
 //   for (var i = 0; i < sortedCities.length; i++){
