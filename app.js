@@ -17,7 +17,6 @@ function nav(){
 
   }
 }
-
 var icon1A = document.getElementById('icon1A');
 icon1A.addEventListener('click', beach);
 var icon1B = document.getElementById('icon1B');
@@ -118,23 +117,40 @@ function sortCities() {
 }
 
 function randomNumber() {
+  if (sortedCities.length < 3) {
+    return [0,1,2];
+  }
+
   var one = Math.floor(Math.random() * sortedCities.length);
   var two = Math.floor(Math.random() * sortedCities.length);
   var three = Math.floor(Math.random() * sortedCities.length);
   if ((one === two) || (one === three) || (two === three)) {
-    randomNumber();
+    return randomNumber();
   } else {
     return [one, two, three];
   }
 }
 var results = document.getElementById('resultsButton');
 results.addEventListener('click', randomPick);
-function randomPick() {
+function randomPick(event) {
+  event.preventDefault();
   sortCities();
-  randomNumber();
-  var imageSpotLeft   = sortedCities[leftIndex];
-  var imageSpotCenter = sortedCities[randomNumber()];
-  var imageSpotRight  = sortedCities[randomNumber()];
+  console.log('sortedCities.length: ', sortedCities.length);
+  var holder = randomNumber();
+  var allResults = [];
+  for (var i = 0; i < holder.length; i++) {
+    var city = sortedCities[holder[i]];
+    if (city) allResults.push(city);
+  }
+
+
+  var imageSpotLeft   = sortedCities[holder[0]];
+  var imageSpotCenter = sortedCities[holder[1]];
+  var imageSpotRight  = sortedCities[holder[2]];
+
+  var allResults = [imageSpotLeft, imageSpotCenter, imageSpotRight];
+
+
   localStorage.setItem('resultOne', JSON.stringify(imageSpotLeft));
   localStorage.setItem('resultTwo', JSON.stringify(imageSpotCenter));
   localStorage.setItem('resultThree', JSON.stringify(imageSpotRight));
@@ -164,6 +180,7 @@ function randomPick() {
 //   display.cityObjects[i].calendar;
 //   var showLanguages = document.getElementById('div1');
 //   display.cityObjects[i].languages;
+
 //   var showEmbassy = document.getElementById('div1');
 //   display.cityObjects[i].embassy;
 // }
