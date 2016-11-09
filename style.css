@@ -105,7 +105,7 @@ i {
 #embassy, #flight, #language, #currency {
   display: inline-block;
   float: left;
-  width: 162px;
+  width: 48%;
   margin: 3px;
 }
 #card1 {
@@ -113,6 +113,24 @@ position: relative;
 width: 100%;
 padding: 0;
 background-color: #544f4f;
+}
+#card3 {
+  height: 460px;
+  overflow: scroll;
+}
+#trip-advisor {
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+  clear: right;
+}
+h1 {
+  font-size: 2em;
+}
+#text {
+  margin-top: 15px;
+  font-size: 1.3em;
+  margin-left: 5px;
 }
 #card6 {
   height: 350px;
@@ -122,11 +140,4 @@ background-color: #544f4f;
   max-width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-}
-#city-name {
-  position: absolute;
-  color: white;
-  bottom: 10px;
-  left: 5px;
-  text-align: left;
 }
