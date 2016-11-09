@@ -38,6 +38,7 @@ i {
 
 #tableSeason {
   border-collapse: collapse;
+
 }
 
 #qTwo {
@@ -47,18 +48,30 @@ i {
   height: 100vh
 }
 
-.tableTdSeason {
-  border: 1px solid black;
-}
 
-.tableTdSeason:hover {
-  box-shadow: 0px 0px 40px #fff;
+.tableTdSeason {
+  border: 5px solid black;
 }
-.tableTdSeason:active {
-  box-shadow: 0px 0px 40px #fff;
+/*.tableTdSeason {
+  width: 200px;
+  height:200px;
+}*/
+/*.tableInSeason {
+  width: 200%;
+  height: 200%;
+  overflow: hidden;
+  display: absolute;
+}*/
+
+
+.tableInSeason:hover {
+  box-shadow: 0px 0px 80px #000000;
 }
-.tableTdSeason:visited {
-  box-shadow: 0px 0px 40px #fff;
+.tableInSeason:active {
+  box-shadow: 0px 0px 80px #000000;
+}
+.tableInSeason:visited {
+  box-shadow: 0px 0px 80px #000000;
 }
 
 .hamburgerlink {
