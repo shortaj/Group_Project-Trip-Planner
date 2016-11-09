@@ -1,6 +1,6 @@
 .bodyStyle {
   background-color: black;
-  height: auto;
+  height: 100vh;
 }
 .iconAll {
   list-style-type: none;
@@ -8,6 +8,16 @@
   /*margin: 100px;*/
   cursor: pointer;
 }
+
+/*index div all*/
+.divAll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh
+}
+
 .options {
   height: 160px;
   width: 160px;
@@ -34,6 +44,14 @@
 i {
   color: white;
 }
+
+.hamburgerlink {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+
+}
+
 .resultHolder {
   /*change next three lines later*/
   border: 2px ridge white;
@@ -60,11 +78,17 @@ i {
 }
 #hamburgerList {
   list-style-type: none;
+  float:left;
   display: none;
   position: fixed;
   margin-top: 40px;
   margin-left: 10px;
+  margin-right: 60px;
+  padding-left: 10px;
+  padding-right: 40px;
+  background-color: red;
 }
+
 .columns-container {
   display: flex;
   flex-direction: row;
