@@ -23,6 +23,14 @@
   width: 160px;
   margin: 50px;
 }
+/*index div all*/
+.divAll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh
+}
 .options:hover {
   box-shadow: 0px 0px 40px #fff;
 }
@@ -44,6 +52,22 @@ i {
 
 }
 
+.resultHolder {
+  /*change next three lines later*/
+  border: 2px ridge white;
+  width: 500px;
+  height: 300px;
+  margin: 40px;
+  position: relative;
+  top: 200px;
+  padding: 0px;
+  overflow: hidden;
+}
+.result-image img{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+}
 #hamburger {
   display: block;
   position: fixed;
@@ -161,7 +185,7 @@ h1 {
 }
 #city-view {
   margin: 0;
-  max-width: 100%;
+  width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
