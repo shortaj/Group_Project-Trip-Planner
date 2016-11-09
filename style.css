@@ -36,6 +36,14 @@
 i {
   color: white;
 }
+
+.hamburgerlink {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+
+}
+
 #hamburger {
   display: block;
   position: fixed;
@@ -45,11 +53,17 @@ i {
 }
 #hamburgerList {
   list-style-type: none;
+  float:left;
   display: none;
   position: fixed;
   margin-top: 40px;
   margin-left: 10px;
+  margin-right: 60px;
+  padding-left: 10px;
+  padding-right: 40px;
+  background-color: red;
 }
+
 .columns-container {
   display: flex;
   flex-direction: row;
