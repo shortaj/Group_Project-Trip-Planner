@@ -116,11 +116,24 @@ function sortCities() {
   }
 }
 
+function randomIndex(arrayToGenerateIndicesFor) {
+  return  Math.floor(Math.random() * arrayToGenerateIndicesFor.length);
+}
+
+//
+// function userHasNotAnsweredEnough() {
+//   if (userAnswerArray.length < 4) {
+    // function to tell user that they need to add more criteria.
+//   }
+// }
+// function randomNumberGenerator(userArray) {
+//   return Math.floor(Math.random() * userArray.length);
+// }
+
 function randomNumber() {
   if (sortedCities.length < 3) {
     return [0,1,2];
   }
-
   var one = Math.floor(Math.random() * sortedCities.length);
   var two = Math.floor(Math.random() * sortedCities.length);
   var three = Math.floor(Math.random() * sortedCities.length);
@@ -131,17 +144,26 @@ function randomNumber() {
   }
 }
 var results = document.getElementById('resultsButton');
+
 results.addEventListener('click', randomPick);
 function randomPick(event) {
-  event.preventDefault();
   sortCities();
   console.log('sortedCities.length: ', sortedCities.length);
   var holder = randomNumber();
   var allResults = [];
   for (var i = 0; i < holder.length; i++) {
     var city = sortedCities[holder[i]];
-    if (city) allResults.push(city);
+    if (city) allResults.push();
   }
+
+  function localStorageInsert (key, value) {
+    localStorage.setItem(key, JSON.stringify(value));
+  }
+
+  function localStoragePull (key) {
+    JSON.parse(localStorage.getItem(key));
+  }
+
 
 
   var imageSpotLeft   = sortedCities[holder[0]];
@@ -156,17 +178,7 @@ function randomPick(event) {
   localStorage.setItem('resultThree', JSON.stringify(imageSpotRight));
 }
 
-//
-// var showLeft = document.getElementById('imageSpotLeft');
-// showLeft.innerContent = imageSpotLeft(path);
-// showLeft.addEventListener('click' , cardPage);
-// var showCenter = document.getElementById('imageSpotCenter');
-// showCenter.innerContent = imageSpotCenter(path);
-// showCenter.addEventListener('click' , cardPage);
-// var showRight = document.getElementById('imageSpotRight');
-// showRight.innerContent = imageSpotRight(path);
-// showRight.addEventListener('click' , cardPage);
-//
+
 // function cardPage() {
 //   var showWeather = document.getElementById('div1');
 //   display.cityObjects[i].weather;
