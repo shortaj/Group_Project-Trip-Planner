@@ -49,7 +49,6 @@ var cityObjects = [
   new City('Victoria Falls', 'Tanzania', 'sightseeing', 'winter, fall', '$, $$', 'couple, family', 'img/VictoriaFallsTanzania.jpg'),
   new City('Giza', 'Egypt', 'sightseeing', 'winter, fall', '$$', 'single, couple', 'img/GizaEgypt.jpg'),
 
-
   new City('Ubud', 'Bali, Indonesia', 'beach', 'winter, spring, summer, fall', '$$', 'solo, couple, family', 'img/Bali.jpg'),
   new City('Singapore', 'Singapore', 'sightseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Singapore.jpg'),
   new City('Rishikesh', 'India', 'siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Rishikesh.jpg'),

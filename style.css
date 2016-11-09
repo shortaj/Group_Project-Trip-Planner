@@ -44,6 +44,7 @@ i {
   top: 200px;
   padding: 0px;
   overflow: hidden;
+  background-color: white;
 }
 .result-image img{
   width: 100%;
@@ -148,10 +149,10 @@ background-color: #544f4f;
   margin-right: 10px;
   clear: right;
 }
-h1 {
+#blurb-title {
   font-size: 2em;
 }
-#text {
+#blurb-text {
   margin-top: 15px;
   font-size: 1.3em;
   margin-left: 5px;

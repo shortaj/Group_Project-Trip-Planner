@@ -14,7 +14,6 @@ function nav(){
   } else {
     navBar.style.display = 'block';
     navBarVisible = true;
-
   }
 }
 var icon1A = document.getElementById('icon1A');
@@ -117,7 +116,7 @@ function sortCities() {
 }
 
 function randomIndex(arrayToGenerateIndicesFor) {
-  return  Math.floor(Math.random() * arrayToGenerateIndicesFor.length);
+  return Math.floor(Math.random() * arrayToGenerateIndicesFor.length);
 }
 
 //
@@ -164,20 +163,16 @@ function randomPick(event) {
     JSON.parse(localStorage.getItem(key));
   }
 
-
-
   var imageSpotLeft   = sortedCities[holder[0]];
   var imageSpotCenter = sortedCities[holder[1]];
   var imageSpotRight  = sortedCities[holder[2]];
 
   var allResults = [imageSpotLeft, imageSpotCenter, imageSpotRight];
 
-
   localStorage.setItem('resultOne', JSON.stringify(imageSpotLeft));
   localStorage.setItem('resultTwo', JSON.stringify(imageSpotCenter));
   localStorage.setItem('resultThree', JSON.stringify(imageSpotRight));
 }
-
 
 // function cardPage() {
 //   var showWeather = document.getElementById('div1');
