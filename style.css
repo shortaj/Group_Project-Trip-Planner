@@ -1,5 +1,6 @@
 .bodyStyle {
   background-color: black;
+  height: auto;
 }
 .iconAll {
   list-style-type: none;
@@ -25,21 +26,12 @@
 i {
   color: white;
 }
-.divAll {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
 #hamburger {
   display: block;
   position: fixed;
   margin-top: 5px;
   margin-left: 10px;
   float: left;
-  /*top: 10px;
-  left: 10px;*/
 }
 #hamburgerList {
   list-style-type: none;
@@ -47,14 +39,11 @@ i {
   position: fixed;
   margin-top: 40px;
   margin-left: 10px;
-  /*float: left;
-  top: 10px;
-  left: 10px*/
 }
 .columns-container {
   display: flex;
   flex-direction: row;
-  height: auto;;
+  height: auto;
   padding: 10px;
   overflow: hidden;
 }
@@ -87,7 +76,7 @@ i {
 }
 .card-half {
   width: auto;
-  height: 48vh;
+  height: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -116,18 +105,39 @@ i {
 #embassy, #flight, #language, #currency {
   display: inline-block;
   float: left;
-  width: 162px;
+  width: 48%;
   margin: 3px;
 }
-.card-text {
-  padding-left: 60px;
-  display: block;
-  margin: auto;
-  margin-top: 10px;
-}
 #card1 {
-  background-image: url('img/Rome.jpg');
-  /*background-size: cover;*/
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+position: relative;
+width: 100%;
+padding: 0;
+background-color: #544f4f;
+}
+#card3 {
+  height: 460px;
+  overflow: scroll;
+}
+#trip-advisor {
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+  clear: right;
+}
+h1 {
+  font-size: 2em;
+}
+#text {
+  margin-top: 15px;
+  font-size: 1.3em;
+  margin-left: 5px;
+}
+#card6 {
+  height: 350px;
+}
+#city-view {
+  margin: 0;
+  max-width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }

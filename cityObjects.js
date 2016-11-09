@@ -49,9 +49,10 @@ var cityObjects = [
   new City('Victoria Falls', 'Tanzania', 'sightseeing', 'winter, fall', '$, $$', 'couple, family', 'img/VictoriaFallsTanzania.jpg'),
   new City('Giza', 'Egypt', 'sightseeing', 'winter, fall', '$$', 'single, couple', 'img/GizaEgypt.jpg'),
 
-  new City('Bali', 'Indonesia', 'beach', 'winter, spring, summer, fall', '$$', 'solo, couple, family', 'img/Bali.jpg'),
-  new City('Singapore', 'Singapore', 'sightseeing', 'winter, spring, summer, fall', '$, $$', 'couple, family', 'img/Singapore.jpg'),
-  new City('Rishikesh', 'India', 'siteseeing', 'winter, spring, fall', '$, $$', 'solo, couple', 'img/Rishikesh.jpg'),
+
+  new City('Ubud', 'Bali, Indonesia', 'beach', 'winter, spring, summer, fall', '$$', 'solo, couple, family', 'img/Bali.jpg'),
+  new City('Singapore', 'Singapore', 'sightseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Singapore.jpg'),
+  new City('Rishikesh', 'India', 'siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Rishikesh.jpg'),
   new City('Phuket', 'Thailand', 'beach, siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Phuket.jpg'),
   new City('Hoi An', 'Vietnam', 'beach, siteseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Hoi-an.jpg'),
   new City('Luang Prabang', 'Laos', 'siteseeing', 'winter, spring, fall', '$$', '$$', 'solo, couple, family', 'img/Luang-prabang.jpg'),
@@ -64,12 +65,3 @@ var cityObjects = [
   new City('Kyoto', 'Japan', 'siteseeing', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Kyoto.jpg'),
   new City('Kuala Lumpur', 'Malaysia', 'siteseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Kuala-lumpur.jpg')
 ];
-
-// , romeWeather, romeFlights, romeCurrency, romeMaps, romeCalendar, romeLanguages, romeEmbassy
-// var romeWeather = 'https://www.wunderground.com/q/zmw:00000.1.16242';
-// var romeFlights = '';
-// var romeCurrency = '';
-// var romeMaps = '';
-// var romeCalendar = '';
-// var romeLanguages = '';
-// var romeEmbassy = '';
