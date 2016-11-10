@@ -5,7 +5,8 @@ body {
 /*-------------Short Bios--------------*/
 section {
   left: 10%;
-  top: 30%;
+  top: 20%;
+  padding: 30px;
   position: relative;
 }
 div {
@@ -17,15 +18,31 @@ div {
 }
 
 p {
+  font-family: 'Alegreya', serif;
   color: white;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+.profilePic {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 h1 {
+
+  font-family: 'Oswald', sans-serif;
   color: white;
   font-size: 3em;
   left: 10%;
   top: 5%;
   position: absolute;
-
+  border-bottom: 2px solid white;
+}
+.personalPic {
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+  float: left;
 }
 header {
   clear: right;
@@ -34,15 +51,13 @@ header {
 h2 {
   color: white;
   font-size: 2em;
-  left: 5%;
   position: relative;
+  font-family: 'Kalam', cursive;
 }
 #Anna {
-  border-bottom: 1px solid white;
   margin-bottom: 30px;
 }
 #Ashley {
-  border-bottom: 1px solid white;
   margin-bottom: 30px;
 }
 /*--------------------------------*/
