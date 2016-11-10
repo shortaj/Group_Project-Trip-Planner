@@ -71,7 +71,7 @@ if (resultsArray[1]) {
   var city = document.getElementById('cityName2');
   city.textContent = resultsArray[1].city;
 } else {
-  nukeChildren(elementIDGrab('center'));
+  nukeChildren(elementIdGrab('center'));
 }
 if (resultsArray[2]){
   var showRight = document.getElementById('imageSpotRight');
@@ -81,5 +81,5 @@ if (resultsArray[2]){
   var city = document.getElementById('cityName3');
   city.textContent = resultsArray[2].city;
 } else {
-  nukeChildren(elementIDGrab('right'));
+  nukeChildren(elementIdGrab('right'));
 }
