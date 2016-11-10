@@ -44,14 +44,6 @@ function sports() {
   unselect1();
   icon1C.children[0].classList.add('options1-selected');
 }
-//
-// function firstQuestion() {
-//   for (var i = 0; i < cityObjects.length; i++) {
-//     if (cityObjects[i].activity.includes(userAnswerArray[0]))  {
-//       sortedCities[i] = cityObjects[i];
-//     }
-//   }
-// }
 
 // 2nd Question - Time of Year
 var icon2A = document.getElementById('icon2A');
@@ -170,16 +162,6 @@ function randomIndex(arrayToGenerateIndicesFor) {
   return Math.floor(Math.random() * arrayToGenerateIndicesFor.length);
 }
 
-//
-// function userHasNotAnsweredEnough() {
-//   if (userAnswerArray.length < 4) {
-    // function to tell user that they need to add more criteria.
-//   }
-// }
-// function randomNumberGenerator(userArray) {
-//   return Math.floor(Math.random() * userArray.length);
-// }
-
 function randomNumber() {
   if (sortedCities.length < 3) {
     return [0,1,2];
@@ -197,16 +179,20 @@ var results = document.getElementById('resultsButton');
 
 results.addEventListener('click', randomPick);
 function randomPick(event) {
+  event.preventDefault();
   sortCities();
   console.log('sortedCities.length: ', sortedCities.length);
   var holder = randomNumber();
   var allResults = [];
   for (var i = 0; i < holder.length; i++) {
     var city = sortedCities[holder[i]];
-    if (city) allResults.push();
+    if (city) {
+      allResults.push();
+    }
   }
 
   function localStorageInsert(key, value) {
+    console.log('localStorageInsert', key, value);
     if (typeof value !== 'undefined') {
       localStorage.setItem(key, JSON.stringify(value));
     }
@@ -222,50 +208,7 @@ function randomPick(event) {
 
   allResults = [imageSpotLeft, imageSpotCenter, imageSpotRight];
 
-  localStorage.setItem('resultOne', JSON.stringify(imageSpotLeft));
-  localStorage.setItem('resultTwo', JSON.stringify(imageSpotCenter));
-  localStorage.setItem('resultThree', JSON.stringify(imageSpotRight));
+  localStorageInsert('resultOne', imageSpotLeft);
+  localStorageInsert('resultTwo', imageSpotCenter);
+  localStorageInsert('resultThree', imageSpotRight);
 }
-
-// function cardPage() {
-//   var showWeather = document.getElementById('div1');
-//   display.cityObjects[i].weather;
-//   var showFlights = document.getElementById('div1');
-//   display.cityObjects[i].flights;
-//   var showCurrency = document.getElementById('div1');
-//   display.cityObjects[i].currency;
-//   var showMaps = document.getElementById('div1');
-//   display.cityObjects[i].maps;
-//   var showCalendar = document.getElementById('card4');
-//   display.cityObjects[i].calendar;
-//   var showLanguages = document.getElementById('div1');
-//   display.cityObjects[i].languages;
-
-//   var showEmbassy = document.getElementById('div1');
-//   display.cityObjects[i].embassy;
-// }
-
-//
-// function secondQuestion() {
-//   for (var i = 0; i < sortedCities.length; i++){
-//     if (sortedCities[i].season != userAnswerArray[2]) {
-//       sortedCities.splice(i, 1);
-//     }
-//   }
-// }
-// // 3rd question - Price
-// function thirdQuestion() {
-//   for (var i = 0; i < sortedCities.length; i++) {
-//     if (sortedCities[i][3] != userAnswerArray[3]) {
-//       sortedCities.splice(i, 1);
-//     }
-//   }
-// }
-// // 4th question - People
-// function forthQuestion() {
-//   for (var i = 0; i < sortedCities.length; i++) {
-//     if (sortedCities[i][4] != userAnswerArray[4]) {
-//       sortedCities.splice(i, 1);
-//     }
-//   }
-// }
