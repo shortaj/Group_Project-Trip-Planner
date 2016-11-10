@@ -2,20 +2,6 @@
 
 var userAnswerArray = [];
 var sortedCities = [];
-var hamMenu = document.getElementById('hamburger');
-hamMenu.addEventListener('click' , nav);
-var navBarVisible = false;
-function nav(){
-  var navBar = document.getElementById('hamburgerList');
-  if (navBarVisible){
-    navBar.style.display = 'none';
-    navBarVisible = false;
-
-  } else {
-    navBar.style.display = 'block';
-    navBarVisible = true;
-  }
-}
 var icon1A = document.getElementById('icon1A');
 icon1A.addEventListener('click', beach);
 var icon1B = document.getElementById('icon1B');
