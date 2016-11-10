@@ -285,3 +285,8 @@ background-color: #544f4f;
 .resultsHighlightButton:visited {
   text-shadow: 0px 0px 40px #FF00FF;
 }
+
+.classStyle {
+  display: block;
+  color:red;
+}
