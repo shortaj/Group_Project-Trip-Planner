@@ -5,15 +5,15 @@
 // clickExplore.addEventListener('click' , createExploreList);
 
 
-function createExploreList (){
+function createExploreList (event){
   for (var i = 0; i < cityObjects.length; i++) {
     var cityUl = document.getElementById('cityUl');
     var cityLi = document.createElement('li');
     var classText = cityObjects[i].city;
-    console.log('test');
     cityLi.setAttribute('class' , classText);
     cityLi.setAttribute('src' , cityObjects[i].path);
-    cityUl.appendChild('cityLi');
+    cityUl.appendChild(cityLi);
+    console.log('test');
   }
 }
-createExploreList()
+createExploreList();
