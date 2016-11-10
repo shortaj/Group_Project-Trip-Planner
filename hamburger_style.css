@@ -1,0 +1,54 @@
+}
+#hamburger {
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+}
+#hamburgerList {
+  list-style-type: none;
+  float:left;
+  display: none;
+  position: fixed;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 80px;
+  background-color: #262626;
+  opacity: 0.5;
+}
+
+.hamburgerlink {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+#start {
+}
+
+#explore {
+  margin-top: 20px;
+}
+
+#about {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+i {
+  color: white;
+}
+
+li:hover {
+  font-weight: 600;
+  color: #9ACD32;
+}
+
+a:link {
+  text-decoration: none;
+}

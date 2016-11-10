@@ -44,7 +44,7 @@
   justify-content: center;
   height: 100vh
 }
-
+/*
 i {
   color: white;
 }
@@ -52,7 +52,7 @@ i {
 i:hover {
   color: #9ACD32;
   text-shadow: 0px 0px 40px #9ACD32;
-}
+}*/
 
 #tableSeason {
   border-collapse: collapse;
@@ -94,7 +94,7 @@ i:hover {
   width: 100%;
   height: 100%;
 }
-
+/*
 .hamburgerlink {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -115,8 +115,8 @@ a:link {
 
 li {
   display: inline-block;
-}
-
+}*/
+/*
 #navBar {
   display: block;
   background-color: #262626;
@@ -124,9 +124,9 @@ li {
   height: 50px;
   width: 100%;
   position: fixed;
-}
+}*/
 
-
+/*
 #hamburger {
   display: block;
   position: fixed;
@@ -159,7 +159,7 @@ li {
 #about {
   margin-top: 20px;
   margin-bottom: 30px;
-}
+}*/
 
 #cityName1, #cityName2, #cityName3 {
   position: absolute;
