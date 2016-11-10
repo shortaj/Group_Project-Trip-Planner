@@ -1,5 +1,6 @@
 'use strict';
 
+
 function localStorageGet(key) {
   return localStorage.getItem(key);
 }
@@ -14,7 +15,7 @@ var image = document.getElementById('city-view');
 image.setAttribute('src', chosenCity.path);
 
 var title = document.getElementById('blurb-title');
-title.textContent = chosenCity.city;
+title.textContent = chosenCity.describe;
 
 var weather = document.getElementById('weather-link');
 weather.setAttribute('href', chosenCity.weather);
