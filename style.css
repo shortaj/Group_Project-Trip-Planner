@@ -107,7 +107,7 @@ i:hover {
   overflow: hidden;
   background-color: white;
 }
-.result-image img{
+.result-image img {
   width: 100%;
   margin: 0;
   position: absolute;
@@ -140,6 +140,7 @@ a:link {
   position: fixed;
 }
 */
+
 #hamburger {
   display: block;
   position: fixed;

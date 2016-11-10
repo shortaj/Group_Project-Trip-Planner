@@ -155,8 +155,10 @@ function randomPick(event) {
     if (city) allResults.push();
   }
 
-  function localStorageInsert (key, value) {
-    localStorage.setItem(key, JSON.stringify(value));
+  function localStorageInsert(key, value) {
+    if (typeof value !== 'undefined') {
+      localStorage.setItem(key, JSON.stringify(value));
+    }
   }
 
   function localStoragePull (key) {
@@ -167,7 +169,7 @@ function randomPick(event) {
   var imageSpotCenter = sortedCities[holder[1]];
   var imageSpotRight  = sortedCities[holder[2]];
 
-  var allResults = [imageSpotLeft, imageSpotCenter, imageSpotRight];
+  allResults = [imageSpotLeft, imageSpotCenter, imageSpotRight];
 
   localStorage.setItem('resultOne', JSON.stringify(imageSpotLeft));
   localStorage.setItem('resultTwo', JSON.stringify(imageSpotCenter));
