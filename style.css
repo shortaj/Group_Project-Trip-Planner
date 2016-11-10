@@ -37,7 +37,6 @@
   box-shadow: 0px 0px 40px #FF00FF;
 }
 
-/*index div all*/
 .divAll {
   display: flex;
   flex-direction: row;
@@ -45,7 +44,7 @@
   justify-content: center;
   height: 100vh
 }
-/*can we change id/class on click to make glow stay?*/
+
 i {
   color: white;
 }
@@ -57,7 +56,6 @@ i:hover {
 
 #tableSeason {
   border-collapse: collapse;
-
 }
 
 #qTwo {
@@ -91,6 +89,7 @@ i:hover {
   overflow: hidden;
   background-color: white;
 }
+
 .image {
   width: 100%;
   height: 100%;
@@ -118,7 +117,7 @@ li {
   display: inline-block;
 }
 
-/*#navBar {
+#navBar {
   display: block;
   background-color: #262626;
   opacity: 0.8;
@@ -126,7 +125,7 @@ li {
   width: 100%;
   position: fixed;
 }
-*/
+
 
 #hamburger {
   display: block;
@@ -168,6 +167,10 @@ li {
   bottom: 30px;
   color: white;
   text-shadow: 1px 1px 1px black;
+  font-family: 'Kalam', cursive;
+  font-size: 1.7em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
 }
 
 .columns-container {
@@ -213,7 +216,6 @@ li {
 }
 .card-long {
   width: auto;
-  height: 70vh;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -246,7 +248,7 @@ padding: 0;
 background-color: #544f4f;
 }
 #card3 {
-  height: 460px;
+  height: 250px;
   overflow: scroll;
 }
 #trip-advisor {
@@ -257,6 +259,7 @@ background-color: #544f4f;
 }
 #blurb-title {
   font-size: 2em;
+  font-family: 'Oswald', sans-serif;
 }
 #blurb-text {
   margin-top: 15px;
