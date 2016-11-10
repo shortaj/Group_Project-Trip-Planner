@@ -165,7 +165,7 @@ var results = document.getElementById('resultsButton');
 
 results.addEventListener('click', randomPick);
 function randomPick(event) {
-  event.preventDefault();
+  // event.preventDefault();
   sortCities();
   console.log('sortedCities.length: ', sortedCities.length);
   var holder = randomNumber();
