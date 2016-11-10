@@ -290,7 +290,9 @@ background-color: #544f4f;
 }
 
 #cityLists {
-  /*padding-top: 100px;*/
+  background-color: grey;
+  width: 75%;
+  margin-left: 15%;
 }
 
 #cityUl {
@@ -302,4 +304,6 @@ background-color: #544f4f;
   display: block;
   color:red;
   margin-left: 100px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
 }
