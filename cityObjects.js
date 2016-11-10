@@ -49,14 +49,14 @@ var cityObjects = [
   new City('Rishikesh', 'India', 'sightseeing, sports', 'winter, spring, fall', '$', 'solo, couple', 'img/Rishikesh.jpg', rishikeshWeather, rishikeshDescribe),
   new City('Phuket', 'Thailand', 'beach, sightseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Phuket.jpg', phuketWeather, phuketDescribe),
   new City('Hoi An', 'Vietnam', 'beach, sightseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Hoi-an.jpg', hoianWeather, hoianDescribe),
-  new City('Luang Prabang', 'Laos', 'sightseeing', 'winter, spring, fall', '$$', '$$', 'solo, couple, family', 'img/Luang-prabang.jpg', luangprabangWeather, luangprabangDescribe),
+  new City('Luang Prabang', 'Laos', 'sightseeing', 'winter, spring, fall', '$$', 'solo, couple, family', 'img/Luang-prabang.jpg', luangprabangWeather, luangprabangDescribe),
   new City('Siem Reap', 'Cambodia', 'sightseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Siem-reap.jpg', siemreapWeather, siemreapDescribe),
   new City('Bagan', 'Myanmar', 'sightseeing', 'winter, spring, fall', '$', 'solo, couple', 'img/Bagan.jpg', baganWeather, baganDescribe),
   new City('Cairns', 'Australia', 'beach, sports, sightseeing', 'winter, spring, summer, fall', '$$$', 'solo, couple, family', 'img/Cairns.jpg', cairnsWeather, cairnsDescribe),
   new City('Queenstown', 'New Zealand', 'beach, sports, sightseeing', 'winter, spring, summer, fall', '$$$', 'solo, couple, family', 'img/Queenstown.jpg', queenstownWeather, queenstownDescribe),
   new City('Chengdu', 'China', 'sightseeing', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Chengdu.jpg', chengduWeather, chengduDescribe),
   new City('Yongpyong', 'South Korea', 'sightseeing, sports', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Yongpyong.jpg', yongpyongWeather, yongpyongDescribe),
-  new City('Kyoto', 'Japan', 'sightseeing', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Kyoto.jpg', kyotoWeather, kyotoDescribe),
+  new City('Kyoto', 'Japan', 'sightseeing', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Kyoto.jpeg', kyotoWeather, kyotoDescribe),
   new City('Kuala Lumpur', 'Malaysia', 'sightseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Kuala-lumpur.jpeg', kualalumpurWeather, kualalumpurDescribe)
 ];
 
