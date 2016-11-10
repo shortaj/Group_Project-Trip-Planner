@@ -64,11 +64,18 @@ i {
   overflow: hidden;
   background-color: white;
 }
-.result-image img{
+.result-image img {
   width: 100%;
   margin: 0;
   position: absolute;
 }
+#nothing img {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  display: hidden;
+}
+
 #hamburger {
   display: block;
   position: fixed;
