@@ -80,10 +80,24 @@ i:hover {
 .season-selected, .season-selected:hover {
   filter: drop-shadow(0px 0px 10px #FFF);
 }
-/*
-table {
-  margin: 20px;
-}*/
+
+.next {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#resultsButton {
+  margin-top: 40px;
+  height: 45px;
+  position: absolute;
+  left: 525px;
+}
+
+.page-view {
+  display: flex;
+  flex-direction: column;
+}
+
 .resultHolder {
   /*change next three lines later*/
   border: 2px ridge white;
