@@ -4,7 +4,7 @@ var allLanguages = 'http://www.infoplease.com/ipa/A0855611.html';
 var allCurrency = 'http://www.exchange-rates.org/';
 var allMaps = 'https://www.google.com/maps/@47.6158756,-122.3434412,14z';
 var allEmbassy = 'https://step.state.gov/step/';
-
+console.log('hello');
 var romeWeather = 'https://www.wunderground.com/cgi-bin/findweather/getForecast?query=rome%2C+italy';
 var romeDescribe = 'Rome wasn\'t built in a day--and you\'ll need much more than a day to take in this timeless city. The city is a real-life collage of piazzas, open-air markets, and astonishing historic sites. Toss a coin into the Trevi Fountain, contemplate the Colosseum and the Pantheon, and sample a perfect espresso or gelato before spending an afternoon shopping at the Campo de’Fiori or Via Veneto. Enjoy some of the most memorable meals of your life here, too, from fresh pasta to succulent fried artichokes or a tender oxtail stew.';
 

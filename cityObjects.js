@@ -57,5 +57,5 @@ var cityObjects = [
   new City('Chengdu', 'China', 'sightseeing', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Chengdu.jpg', chengduWeather, chengduDescribe),
   new City('Yongpyong', 'South Korea', 'sightseeing, sports', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Yongpyong.jpg', yongpyongWeather, yongpyongDescribe),
   new City('Kyoto', 'Japan', 'sightseeing', 'spring, summer, fall', '$$', 'solo, couple, family', 'img/Kyoto.jpg', kyotoWeather, kyotoDescribe),
-  new City('Kuala Lumpur', 'Malaysia', 'sightseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Kuala-lumpur.jpg', kualalumpurWeather, kualalumpurDescribe)
+  new City('Kuala Lumpur', 'Malaysia', 'sightseeing', 'winter, spring, summer, fall', '$$', 'couple, family', 'img/Kuala-lumpur.jpeg', kualalumpurWeather, kualalumpurDescribe)
 ];
