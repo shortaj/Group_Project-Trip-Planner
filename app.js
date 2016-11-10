@@ -24,14 +24,25 @@ var icon1C = document.getElementById('icon1C');
 icon1C.addEventListener('click', sports);
 
 // 1st Question - Activity
+function unselect1() {
+  icon1A.children[0].classList.remove('options1-selected');
+  icon1B.children[0].classList.remove('options1-selected');
+  icon1C.children[0].classList.remove('options1-selected');
+}
 function beach() {
   userAnswerArray[0] = 'beach';
+  unselect1();
+  icon1A.children[0].classList.add('options1-selected');
 }
 function sightSeeing() {
   userAnswerArray[0] = 'sightseeing';
+  unselect1();
+  icon1B.children[0].classList.add('options1-selected');
 }
 function sports() {
   userAnswerArray[0] = 'sports';
+  unselect1();
+  icon1C.children[0].classList.add('options1-selected');
 }
 //
 // function firstQuestion() {
@@ -52,17 +63,31 @@ icon2C.addEventListener('click', summer);
 var icon2D = document.getElementById('icon2D');
 icon2D.addEventListener('click', fall);
 
+function unselectSeason() {
+  icon2A.children[0].classList.remove('season-selected');
+  icon2B.children[0].classList.remove('season-selected');
+  icon2C.children[0].classList.remove('season-selected');
+  icon2D.children[0].classList.remove('season-selected');
+}
 function winter() {
   userAnswerArray[1] = 'winter';
+  unselectSeason();
+  icon2A.children[0].classList.add('season-selected');
 }
 function spring() {
   userAnswerArray[1] = 'spring';
+  unselectSeason();
+  icon2B.children[0].classList.add('season-selected');
 }
 function summer() {
   userAnswerArray[1] = 'summer';
+  unselectSeason();
+  icon2C.children[0].classList.add('season-selected');
 }
 function fall() {
   userAnswerArray[1] = 'fall';
+  unselectSeason();
+  icon2D.children[0].classList.add('season-selected');
 }
 
 var icon3A = document.getElementById('icon3A');
@@ -72,14 +97,25 @@ icon3B.addEventListener('click', regular);
 var icon3C = document.getElementById('icon3C');
 icon3C.addEventListener('click', expensive);
 
+function unselect3() {
+  icon3A.children[0].classList.remove('options3-selected');
+  icon3B.children[0].classList.remove('options3-selected');
+  icon3C.children[0].classList.remove('options3-selected');
+}
 function cheap() {
   userAnswerArray[2] = '$';
+  unselect3();
+  icon3A.children[0].classList.add('options3-selected');
 }
 function regular() {
   userAnswerArray[2] = '$$';
+  unselect3();
+  icon3B.children[0].classList.add('options3-selected');
 }
 function expensive() {
   userAnswerArray[2] = '$$$';
+  unselect3();
+  icon3C.children[0].classList.add('options3-selected');
 }
 
 var icon4A = document.getElementById('icon4A');
@@ -91,17 +127,32 @@ icon4C.addEventListener('click', family);
 var icon4D = document.getElementById('icon4D');
 icon4D.addEventListener('click', pet);
 
+function unselect4() {
+  icon4A.children[0].classList.remove('options4-selected');
+  icon4B.children[0].classList.remove('options4-selected');
+  icon4C.children[0].classList.remove('options4-selected');
+  icon4D.children[0].classList.remove('options4-selected');
+}
+
 function solo() {
   userAnswerArray[3] = 'solo';
+  unselect4();
+  icon4A.children[0].classList.add('options4-selected');
 }
 function couple() {
   userAnswerArray[3] = 'couple';
+  unselect4();
+  icon4B.children[0].classList.add('options4-selected');
 }
 function family() {
   userAnswerArray[3] = 'family';
+  unselect4();
+  icon4C.children[0].classList.add('options4-selected');
 }
 function pet() {
   userAnswerArray[3] = 'pet';
+  unselect4();
+  icon4D.children[0].classList.add('options4-selected');
 }
 
 function sortCities() {

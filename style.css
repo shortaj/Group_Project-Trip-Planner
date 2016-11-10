@@ -18,34 +18,26 @@
 }
 
 .options1:hover {
-  box-shadow: 0px 0px 50px #1219FC;
+  box-shadow: 0px 0px 50px white
 }
-.options1:active {
-  box-shadow: 0px 0px 50px #1219FC;
-}
-.options1:visited {
-  box-shadow: 0px 0px 50px #1219FC;
+.options1-selected {
+  box-shadow: 0px 0px 50px white;
 }
 
 .options3:hover {
   box-shadow: 0px 0px 40px #14e319;
 }
-.options3:active {
-  box-shadow: 0px 0px 40px #14e319;
-}
-.options3:visited {
+.options3-selected {
   box-shadow: 0px 0px 40px #14e319;
 }
 
 .options4:hover {
   box-shadow: 0px 0px 40px #FF00FF;
 }
-.options4:active {
+.options4-selected {
   box-shadow: 0px 0px 40px #FF00FF;
 }
-.options4:visited {
-  box-shadow: 0px 0px 40px #FF00FF;
-}
+
 
 
 /*index div all*/
@@ -85,15 +77,11 @@ i:hover {
 }
 
 .tableInSeason:hover {
-  box-shadow: 0px 0px 80px #000000;
+  filter: drop-shadow(0px 0px 10px #999);
 }
-.tableInSeason:active {
-  box-shadow: 0px 0px 80px #000000;
+.season-selected, .season-selected:hover {
+  filter: drop-shadow(0px 0px 10px #FFF);
 }
-.tableInSeason:visited {
-  box-shadow: 0px 0px 80px #000000;
-}
-
 
 .resultHolder {
   /*change next three lines later*/
@@ -128,6 +116,10 @@ li:hover {
 
 a:link {
   text-decoration: none;
+}
+
+li {
+  display: inline-block;
 }
 
 /*#navBar {
@@ -174,6 +166,13 @@ a:link {
   margin-bottom: 30px;
 }
 
+#cityName1, #cityName2, #cityName3 {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
 
 .columns-container {
   display: flex;
