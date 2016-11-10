@@ -1,8 +1,8 @@
 .bodyStyle {
   background-color: black;
   height: 100vh;
-/*------Hamburger CSS-----*/
 }
+/*------Hamburger CSS-----*/
 #hamburger {
   display: block;
   position: absolute;
@@ -56,12 +56,12 @@ li:hover {
 a:link {
   text-decoration: none;
 }
-/*-----------------------------------------*/
-/*---------------Header-----------------*/
 header {
   clear: right;
   margin-bottom: 10%;
 }
+/*-----------------------------------------*/
+/*---------------Header-----------------*/
 /*-----------------------------------*/
 /*-------------Short Bios--------------*/
 section {

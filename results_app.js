@@ -51,9 +51,7 @@ function nukeChildren(elementId){
 localStorageArray('resultOne');
 localStorageArray('resultTwo');
 localStorageArray('resultThree');
-
-console.log(resultsArray);
-// console.log('resultsArray: ', resultsArray);
+console.log('resultsArray: ', resultsArray);
 
 if (resultsArray[0]) {
   var showLeft = document.getElementById('imageSpotLeft');
@@ -85,17 +83,3 @@ if (resultsArray[2]){
 } else {
   nukeChildren(elementIDGrab('right'));
 }
-//
-// function cardPage(event) {
-//   var image = document.getElementById('city-view');
-//   image.setAttribute('src', this.path);
-//
-//   var title = document.getElementById('blurb-title');
-//   title.textContent = this.describe;
-//
-//   var weather = document.getElementById('weather-link');
-//   weather.setAttribute('href', this.weather);
-//
-//   var text = document.getElementById('blurb-text');
-//   text.textContent = this.describe;
-// }
