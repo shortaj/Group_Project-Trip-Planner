@@ -283,7 +283,23 @@ background-color: #544f4f;
   text-shadow: 0px 0px 40px #FF00FF;
 }
 
+/*CODE FOR EXPLORE.HTML PAGE*/
+
+.bodyStyleExplore {
+  background-color: black;
+}
+
+#cityLists {
+  /*padding-top: 100px;*/
+}
+
+#cityUl {
+  padding-top: 100px;
+}
+
 .classStyle {
+  list-style-type: none;
   display: block;
   color:red;
+  margin-left: 100px;
 }
