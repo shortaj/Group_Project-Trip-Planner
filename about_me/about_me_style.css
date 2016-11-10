@@ -1,0 +1,45 @@
+.bodyStyle {
+  background-color: black;
+  height: 100vh;
+}
+#hamburger {
+  display: block;
+  position: fixed;
+  margin-top: 5px;
+  margin-left: 10px;
+  float: left;
+}
+#hamburgerList {
+  list-style-type: none;
+  float:left;
+  display: none;
+  position: fixed;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 60px;
+  padding-left: 10px;
+  padding-right: 40px;
+  background-color: red;
+}
+.hamburgerlink {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+i {
+  color: white;
+}
+
+div {
+  margin: 10px;
+  align-self: center;
+  width: 80%;
+}
+
+p {
+  color: white;
+}
+
+h2 {
+  font-size: 2em;
+}
