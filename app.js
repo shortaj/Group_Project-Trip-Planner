@@ -105,6 +105,7 @@ function pet() {
 }
 
 function sortCities() {
+  var sortedCities = [];
   for (var i = 0; i < cityObjects.length; i++) {
     if (cityObjects[i].activity.includes(userAnswerArray[0]) &&
         cityObjects[i].season.includes(userAnswerArray[1]) &&
