@@ -10,7 +10,7 @@ function createExploreList (event){
     var cityUl = document.getElementById('cityUl');
     var cityLi = document.createElement('li');
     var classText = cityObjects[i].city;
-    cityLi.setAttribute('class' , classText);
+    // cityLi.setAttribute('class' , classText);
     cityLi.setAttribute('src' , cityObjects[i].path);
     cityUl.appendChild(cityLi);
     console.log('test');
