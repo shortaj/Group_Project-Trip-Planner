@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet"  type="text/css" href="resetstyle.css" />
-  <link rel="stylesheet" href="hamburger_style.css" media="screen" title="no title">
-  <link rel="stylesheet"  type="text/css" href="style.css" />
-  <script src="https://use.fontawesome.com/e93af6e06e.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Alegreya|Kalam|Oswald" rel="stylesheet">
-  <title>Travel Home</title>
-</head>
-<body class="bodyStyle">
-  <header>
-    <nav>
-      <div><i class="fa fa-bars fa-2x" id="hamburger" aria-hidden="true"></i></div>
-      <ul id="hamburgerList">
-        <a href="index.html#index"><li href="Group_Project-Trip-Planner/index.html"class="hamburgerlink" id="start">start</li></a>
-        <a href="Explore.html#Explore"><li class="hamburgerlink" id="explore">explore</li></a>
-        <a href="about_me/about_me.html#about"><li class="hamburgerlink" id="about">about</li></a>
-      </ul>
-    </nav>
-  </header>
-  <div id="qActivity" class="divAll">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"  type="text/css" href="resetstyle.css" />
+    <link rel="stylesheet" href="hamburger_style.css" media="screen" title="no title">
+    <link rel="stylesheet"  type="text/css" href="style.css" />
+    <script src="https://use.fontawesome.com/e93af6e06e.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Kalam|Oswald" rel="stylesheet">
+    <title>Travel Home</title>
+  </head>
+  <body class="bodyStyle">
+    <header>
+      <nav>
+        <div><p id="topText">Let's Get Going! Select One Option...</p></div>
+
+        <div><i class="fa fa-bars fa-2x" id="hamburger" aria-hidden="true"></i></div>
+        <ul id="hamburgerList">
+          <a href="index.html#index"><li href="Group_Project-Trip-Planner/index.html"class="hamburgerlink" id="start">start</li></a>
+          <a href="Explore.html#Explore"><li class="hamburgerlink" id="explore">explore</li></a>
+          <a href="about_me/about_me.html#about"><li class="hamburgerlink" id="about">about</li></a>
+        </ul>
+      </nav>
+    </header>
+    <div id="qActivity" class="divAll">
       <ul>
         <li id="icon1A" class="iconAll"><img class="options options1" src="icons/iconActivityBeach.jpg" alt="Beachicon1A" /></li>
         <li id="icon1B" class="iconAll"><img class="options options1" src="icons/iconActivitySiteseeing.png" alt="Siteseeingicon1B" /></li>
         <li id="icon1C" class="iconAll"><img class="options options1" src="icons/iconActivitySport.png" alt="Sporticon1C" /></li>
       </ul>
-      <section class="next">
+      <section>
         <a href="index.html#qTwo"><i class="fa fa-chevron-right fa-3x buttonEfx" aria-hidden="true"></i></a>
       </section>
-  </div>
-  <div id="qTwo">
-    <table id="tableSeason">
-      <tr>
-        <!--summer  -->
-        <td><div id="icon2C" class="tableTdSeason"><img src="icons/iconCalendarTopLeft.png" alt="Summericon2C" class="tableInSeason"/><div></td>
+    </div>
+    <div id="qTwo">
+      <table id="tableSeason">
+        <tr>
+          <!--summer  -->
+          <td><div id="icon2C" class="tableTdSeason"><img src="icons/iconCalendarTopLeft.png" alt="Summericon2C" class="tableInSeason"/><div></td>
           <!-- fall -->
           <td><div id="icon2D" class="tableTdSeason"><img src="icons/iconCalendarTopRight.png" alt="Fallicon2D" class="tableInSeason"/></div></td>
         </tr>
@@ -60,23 +62,20 @@
       </section>
     </div>
     <div id="qFour" class="divAll">
-      <div id="people-page">
-        <div>
-          <ul>
-            <li id="icon4A" class="iconAll"><img class="options options4" src="icons/iconPeopleSolo.png" alt="icon4A" /></li>
-            <li id="icon4B" class="iconAll"><img class="options options4" src="icons/iconPeopleCouple.jpg" alt="icon4B" /></li>
-            <li id="icon4C" class="iconAll"><img class="options options4" src="icons/iconPeopleFamily.jpg" alt="icon4C" /></li>
-            <li id="icon4D" class="iconAll"><img class="options options4" src="icons/iconPeopleDog.png" alt="icon4D" /></li>
-          </ul>
-        </div>
-        <div>
-          <a href="results.html#results"><img id="resultsButton" src="icons/GoButton.png"></a>
-        </div>
-      </div>
+      <ul>
+        <li id="icon4A" class="iconAll"><img class="options options4" src="icons/iconPeopleSolo.png" alt="icon4A" /></li>
+        <li id="icon4B" class="iconAll"><img class="options options4" src="icons/iconPeopleCouple.jpg" alt="icon4B" /></li>
+        <li id="icon4C" class="iconAll"><img class="options options4" src="icons/iconPeopleFamily.jpg" alt="icon4C" /></li>
+        <li id="icon4D" class="iconAll"><img class="options options4" src="icons/iconPeopleDog.png" alt="icon4D" /></li>
+      </ul>
+      <section>
+        <a href="results.html#results"><img id="resultsButton" src="icons/GoButton.png" class="resultsHighlightButton"><i  class="resultsHighlightButton"></a>
+      </section>
     </div>
     <script type="text/javascript" src="hamburger_app.js"></script>
     <script type="text/javascript" src="links.js"></script>
     <script type="text/javascript" src="cityObjects.js"></script>
     <script src="app.js" charset="utf-8"></script>
-  </body>
-  </html>
+        </body>
+  <footer>Placeholder for footer</footer>
+</html>

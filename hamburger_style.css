@@ -1,11 +1,35 @@
 
+.navBar {
+  height: 60px;
+  width: 100%;
+  background-color: grey;
+  opacity: 0.2;
+  margin-top: 20px;
+  position: fixed;
+  float: left;
+}
+
+#topText {
+  color: white;
+  opacity: 0.9;
+  font-size: 40px;
+  postion: fixed;
+  font-family: 'Alegreya', serif;
+  margin-left: 70px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: rgb(92, 92, 92, 0.5);
+
+  }
+
 #hamburger {
   display: block;
   position: fixed;
-  top: 20px;
+  top: 30px;
   left: 20px;
   float: left;
 }
+
 #hamburgerList {
   list-style-type: none;
   float:left;
