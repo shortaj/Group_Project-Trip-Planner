@@ -167,7 +167,6 @@ results.addEventListener('click', randomPick);
 function randomPick(event) {
   // event.preventDefault();
   sortCities();
-  console.log('sortedCities.length: ', sortedCities.length);
   var holder = randomNumber();
   var allResults = [];
   for (var i = 0; i < holder.length; i++) {
@@ -178,7 +177,6 @@ function randomPick(event) {
   }
 
   function localStorageInsert(key, value) {
-    console.log('localStorageInsert', key, value);
     if (typeof value !== 'undefined') {
       localStorage.setItem(key, JSON.stringify(value));
     }
