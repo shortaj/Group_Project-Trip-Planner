@@ -1,6 +1,5 @@
 'use strict';
 
-
 var hamMenu = document.getElementById('hamburger');
 hamMenu.addEventListener('click' , nav);
 var navBarVisible = false;

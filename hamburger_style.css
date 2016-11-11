@@ -14,19 +14,17 @@
   color: white;
   opacity: 0.9;
   font-size: 40px;
-  font-family: 'Alegreya', serif;
-  top: 2%;
-  left: 10%;
+  font-family: Alegreya, serif;
+  left: 70px;
+  top: -5px;
   padding: 20px;
-  background-color: rgb(92, 92, 92, 0.5);
-
-  }
+}
 
 #hamburger {
   display: block;
   position: fixed;
-  top: 8%;
-  left: 3%;
+  top: 20px;
+  left: 20px;
   float: left;
 }
 #hamburgerList {
