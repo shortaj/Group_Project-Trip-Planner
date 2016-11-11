@@ -17,7 +17,7 @@ div {
   width: 80%;
 }
 
-p {
+.aboutUs {
   font-family: 'Alegreya', serif;
   color: white;
   font-size: 1.3em;
@@ -27,16 +27,6 @@ p {
   height: 100%;
   width: 100%;
   overflow: hidden;
-}
-h1 {
-
-  font-family: 'Oswald', sans-serif;
-  color: white;
-  font-size: 3em;
-  left: 10%;
-  top: 5%;
-  position: absolute;
-  border-bottom: 2px solid white;
 }
 .personalPic {
   margin-right: 45px;
