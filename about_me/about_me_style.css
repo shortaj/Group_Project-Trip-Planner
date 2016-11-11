@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  height: 100vh;
+}
+/*-------------Short Bios--------------*/
+section {
+  left: 10%;
+  top: 20%;
+  padding: 30px;
+  position: relative;
+}
+div {
+  position: relative;
+  margin: 10px;
+  justify-content: center;
+  align-self: center;
+  width: 80%;
+}
+
+p {
+  font-family: 'Alegreya', serif;
+  color: white;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+.profilePic {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+h1 {
+
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 3em;
+  left: 10%;
+  top: 5%;
+  position: absolute;
+  border-bottom: 2px solid white;
+}
+.personalPic {
+  margin-right: 45px;
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+  float: left;
+}
+header {
+  clear: right;
+}
+
+h2 {
+  color: white;
+  font-size: 2em;
+  position: relative;
+  font-family: 'Kalam', cursive;
+}
+#Anna {
+  margin-bottom: 30px;
+}
+#Ashley {
+  margin-bottom: 30px;
+}
+/*--------------------------------*/

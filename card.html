@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <link rel="stylesheet"  type="text/css" href="resetstyle.css" />
   <link rel="stylesheet"  type="text/css" href="style.css" />
+  <link rel="stylesheet" href="hamburger_style.css" media="screen" title="no title">
   <script src="https://use.fontawesome.com/e93af6e06e.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya|Kalam|Oswald" rel="stylesheet">
   <title>Travel Card</title>
 </head>
 
@@ -13,45 +15,39 @@
     <nav>
       <div><i class="fa fa-bars fa-2x" id="hamburger" aria-hidden="true"></i></div>
       <ul id="hamburgerList">
-        <a href="index.html#index"><li id="start">start</li></a>
-        <a href="Explore.html#Explore"><li id="explore">explore</li></a>
-        <a href="about.html#about"><li id="about">about</li></a>
-      </nav>
-    </ul>
+        <a href="index.html#index"><li href="Group_Project-Trip-Planner/index.html"class="hamburgerlink" id="start">start</li></a>
+        <a href="Explore.html#Explore"><li class="hamburgerlink" id="explore">explore</li></a>
+        <a href="about_me/about_me.html#about"><li class="hamburgerlink" id="about">about</li></a>
+      </ul>
+    </nav>
   </header>
-
   <main class="columns-container">
     <section id="column1">
       <a href="#">
         <div class="card-half background" id="card1">
-          <img id="city-view" src="img/GizaEgypt.jpg" alt="city"/>
+          <img id="city-view" src="" alt="city"/>
         </div>
       </a>
 
       <a href="https://www.google.com/maps/@47.6158725,-122.3434191,15z" target="_blank">
         <article class="card-half background" id="card2">
           <img src="cards/cardMap.png" alt="map" id="map"/>
-          <p class="card-text">
-          </p>
         </article>
       </a>
     </section>
 
     <section id="column2">
       <article class="card-long background" id="card3">
-        <img src="https://pbs.twimg.com/profile_images/472494793616945153/nAKMJI27.jpeg" alt="trip advisor" id="trip-advisor"/>
-        <h1>Egypt</h1>
-        <p id="text">
-          Word to the wise:
-          When you reserve a room at the Best Western Airport Inn in Albany, you have to explicitly tell them if you want a nonsmoking room. There wasn't any option for nonsmoking during the online room reservation process, and it somehow didn't occur to me to make a special request for one. [Added later: It may be that this was because there were no nonsmoking rooms available when I made my reservation; I'm not sure. See comments for more discussion.]
-          Got to the Best Western tonight around 12:45 Eastern time. The surly front desk clerk took roughly ten minutes to check me in, even though I'd used an online reservation process that had already billed my card.
+        <a href="https://www.tripadvisor.com/" target="_blank"><img src="https://pbs.twimg.com/profile_images/472494793616945153/nAKMJI27.jpeg" alt="trip advisor" id="trip-advisor"/></a>
+        <h1 id="blurb-title"></h1>
+        <p id="blurb-text">
+
         </p>
       </article>
 
-      <a href="#">
+      <a id="weather-link" href="" target="_blank">
         <article class="card-short background" id="card4">
           <img src="cards/cardWeather.png" alt="weather" id="weather"/>
-
         </article>
       </a>
     </section>
@@ -74,8 +70,8 @@
 
       </section>
     </main>
-
-    <script src="app.js" charset="utf-8"></script>
+    <script type="text/javascript" src="hamburger_app.js"></script>
+    <script src="card_app.js" charset="utf-8"></script>
     <footer></footer>
   </body>
 
