@@ -15,12 +15,11 @@
   opacity: 0.9;
   font-size: 40px;
   font-family: 'Alegreya', serif;
-  margin-left: 70px;
-  margin-top: 10px;
+  left: 70px;
+  top: -5px;
   padding: 20px;
   background-color: rgb(92, 92, 92, 0.5);
-
-  }
+}
 
 #hamburger {
   display: block;
